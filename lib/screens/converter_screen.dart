@@ -17,7 +17,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
   bool _isLoading = false;
   String? _errorMessage;
 
-  final List<String> _currencies = ['USD', 'EUR', 'BRL', 'BTC'];
+  final List<String> _currencies = ['USD', 'EUR', 'BRL', 'BTC', 'SOL', 'XRP', 'DOGE', 'ETH'];
 
   void _convert() async {
     final amount = double.tryParse(_amountController.text) ?? 0.0;

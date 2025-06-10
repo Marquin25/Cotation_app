@@ -22,7 +22,7 @@ class SettingsScreen extends StatelessWidget {
           ),
           const ListTile(
             title: Text('Versão'),
-            subtitle: Text('1.0.0'),
+            subtitle: Text('2.0'),
           ),
           ListTile(
             title: const Text('Sobre'),

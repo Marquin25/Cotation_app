@@ -15,7 +15,7 @@ class _CurrentQuotesScreenState extends State<CurrentQuotesScreen> {
   final CurrencyService _service = CurrencyService();
   late Future<ApiResponse<List<Currency>>> _quotesFuture;
 
-  final List<String> currencies = ['USD', 'EUR', 'BRL', 'BTC', 'ETH', 'XRP', 'SOL'];
+  final List<String> currencies = ['USD', 'EUR', 'BRL', 'BTC', 'SOL', 'XRP', 'DOGE', 'ETH'];
 
   @override
   void initState() {

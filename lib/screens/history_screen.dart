@@ -58,7 +58,10 @@ class _HistoryScreenState extends State<HistoryScreen> {
                 Expanded(
                   child: DropdownButtonFormField<String>(
                     value: _selectedCurrency,
-                    items: ['USD-BRL', 'EUR-BRL', 'BTC-BRL']
+                    items: [
+                      'USD-BRL', 'EUR-BRL', 'BTC-BRL', 'SOL-BRL', 'XRP-BRL', 'DOGE-BRL',
+                      'ETH-BRL'
+                    ]
                         .map((pair) => DropdownMenuItem(
                               value: pair,
                               child: Text(pair),
