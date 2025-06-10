@@ -1,0 +1,31 @@
+name: currency_quotes_app
+description: Aplicativo de Cotações de Moedas usando a AwesomeAPI
+
+# A versão do seu aplicativo seguindo o formato +build
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Dependências do Flutter
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.1.0
+  intl: 0.20.2
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# Configuração do Flutter
+flutter:
+  uses-material-design: true
+  generate: true
+
+    # Deixe vazio ou adicione seus arquivos de asset aqui
+    # - images/a_dot_burr.jpeg
