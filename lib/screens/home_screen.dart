@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Cotações de Moedas'),
+        title: const Text('Cotações App'),
         centerTitle: true,
       ),
       body: Padding(
